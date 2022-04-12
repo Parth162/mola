@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 5002;
 
 // Connecting to Atlas database (Multi-Cloud Database Service)
-const uri = "mongodb+srv://parthgoel:parthgoel@cluster0.zkbb6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "mongodb+srv://parthgoel:<password>@cluster0.zkbb6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 const client = new MongoClient(uri);
 

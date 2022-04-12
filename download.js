@@ -3,7 +3,7 @@ const fs = require('fs');
 
 //Connect to database
 async function main(){
-    const uri = "mongodb+srv://parthgoel:parthgoel@cluster0.zkbb6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+    const uri = "mongodb+srv://parthgoel:<password>@cluster0.zkbb6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
  
 
     const client = new MongoClient(uri);
