@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.jumbotron { 
+  background-color: #0b374a; /* Orange */
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #0b374a;
+}
